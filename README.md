@@ -30,6 +30,8 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+<img width="479" height="136" alt="Screenshot from 2026-02-06 09-27-14" src="https://github.com/user-attachments/assets/6c59d312-11bd-461d-8c25-ab2237d008a4" />
+
 cat > file2
 ```
 anil aggarwal
@@ -39,26 +41,31 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+<img width="479" height="136" alt="Screenshot from 2026-02-06 09-29-03" src="https://github.com/user-attachments/assets/d720efce-a2ab-4092-a77c-285e9e8b4622" />
+
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
-
+<img width="478" height="127" alt="Screenshot from 2026-02-06 09-29-52" src="https://github.com/user-attachments/assets/6888ab5a-1218-4dad-8e6d-7acacfee85d4" />
 cat < file2
 ## OUTPUT
+<img width="478" height="127" alt="Screenshot from 2026-02-06 09-29-32" src="https://github.com/user-attachments/assets/d2578a82-5272-4925-882a-d7dd72294ce5" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="477" height="73" alt="Screenshot from 2026-02-06 09-30-30" src="https://github.com/user-attachments/assets/18dc6e09-aaef-49da-bf4b-d6d619311cae" />
+
 comm file1 file2
  ## OUTPUT
+<img width="510" height="292" alt="Screenshot from 2026-02-06 09-30-57" src="https://github.com/user-attachments/assets/e11c74fd-a4eb-416e-9210-3d3da0f03ec4" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="510" height="292" alt="Screenshot from 2026-02-06 09-31-13" src="https://github.com/user-attachments/assets/266f508c-4de3-4473-af43-00fd5c4b1ea2" />
 
 
 #Filters
@@ -71,6 +78,8 @@ Hello world
 This is my world
 ^d
 ```
+<img width="513" height="98" alt="Screenshot from 2026-02-06 09-32-20" src="https://github.com/user-attachments/assets/0443ff17-fe7a-44b0-8395-102f73e87e45" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -78,11 +87,13 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+<img width="513" height="97" alt="Screenshot from 2026-02-06 09-35-39" src="https://github.com/user-attachments/assets/0ac1f51c-975d-4f6d-b2ad-c964ecef67df" />
 
 
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="512" height="85" alt="Screenshot from 2026-02-06 09-36-37" src="https://github.com/user-attachments/assets/42214f54-4fb3-452a-9e34-0c65ad72b82e" />
 
 
 
@@ -93,6 +104,7 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="538" height="100" alt="Screenshot from 2026-02-06 09-37-52" src="https://github.com/user-attachments/assets/06655e4e-a024-4d88-a682-47288e986404" />
 
 
 cat < newfile 
@@ -101,9 +113,15 @@ Hello world
 hello world
 ^d
 ````
+<img width="467" height="51" alt="Screenshot from 2026-02-09 08-33-41" src="https://github.com/user-attachments/assets/a183a14f-9312-42dd-8963-9f364477468d" />
+
+
 cat > newfile 
 Hello world
 hello world
+
+<img width="462" height="78" alt="Screenshot from 2026-02-09 08-33-31" src="https://github.com/user-attachments/assets/4f180e6e-e00a-49ed-915c-b9a9862c3de0" />
+
  
 grep Hello newfile 
 ## OUTPUT
