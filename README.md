@@ -155,6 +155,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="625" height="74" alt="Screenshot from 2026-02-09 08-54-03" src="https://github.com/user-attachments/assets/538455c8-0cd3-4729-974c-6b1d60a0f0c0" />
 
 
 cat < newfile 
@@ -166,6 +167,7 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ```
+<img width="622" height="128" alt="Screenshot from 2026-02-09 08-56-17" src="https://github.com/user-attachments/assets/e228d53d-b900-497e-9df8-86f44392c954" />
 
 cat > newfile
 ```
@@ -176,44 +178,43 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+<img width="622" height="128" alt="Screenshot from 2026-02-09 08-56-09" src="https://github.com/user-attachments/assets/de781c65-2ea7-4342-847e-311c78023ac3" />
+
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-
-
-egrep -w '(H|h)ello' newfile 
-## OUTPUT
-
-
+<img width="623" height="61" alt="Screenshot from 2026-02-09 08-57-00" src="https://github.com/user-attachments/assets/1413e2f4-67f5-4b82-a64a-61c4c5fd9e48" />
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="623" height="61" alt="Screenshot from 2026-02-09 08-57-51" src="https://github.com/user-attachments/assets/6b3a3128-2064-4cd2-91d4-40d409ed1044" />
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="623" height="61" alt="Screenshot from 2026-02-09 08-58-18" src="https://github.com/user-attachments/assets/59dd98dc-b9f1-4f57-a70c-19079aebb599" />
+
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-
-
-egrep '(World$)' newfile 
-## OUTPUT
-
+<img width="621" height="100" alt="Screenshot from 2026-02-09 08-58-58" src="https://github.com/user-attachments/assets/8cb55ca8-9cf9-4842-9a08-05bfaa29efb7" />
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+<img width="621" height="100" alt="Screenshot from 2026-02-09 09-00-05" src="https://github.com/user-attachments/assets/c01ab1cc-317d-43f7-b030-89b2bc8f9c59" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="620" height="69" alt="Screenshot from 2026-02-09 09-00-36" src="https://github.com/user-attachments/assets/bf6326a8-f0fb-45a6-84bd-0407a45e693b" />
 
 
 egrep 'Linux.*world' newfile 
