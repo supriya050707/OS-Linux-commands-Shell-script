@@ -48,8 +48,11 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 <img width="478" height="127" alt="Screenshot from 2026-02-06 09-29-52" src="https://github.com/user-attachments/assets/6888ab5a-1218-4dad-8e6d-7acacfee85d4" />
+
 cat < file2
+
 ## OUTPUT
+
 <img width="478" height="127" alt="Screenshot from 2026-02-06 09-29-32" src="https://github.com/user-attachments/assets/d2578a82-5272-4925-882a-d7dd72294ce5" />
 
 
